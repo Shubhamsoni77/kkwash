@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: auto;
+
+}
+hr{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(76, 161, 153);
+    position: sticky;
+    top: 0;
+}
+.upper-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(165, 165, 165);
+    margin-block: 15px;
+}
+.upper-nav a{
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+.upper-nav hr{
+    width: 100%;
+    
+}
+.left{
+    width: 13%;
+    height: auto;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.right{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 10px;
+}
+.right a{
+    font-size: 14px;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 20px;
+    position: sticky;
+    top: 3px;
+    background-color: white;
+}
+.left-nav{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+.left-nav img{
+    width: 100px;
+    height: auto;
+}
+.right-nav{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 15px;
+}
+.right-nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+.image-part{
+    width: 100%;
+    height: 500px;
+    background-image: url('./homepage-high-pressure.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image-bottom{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 136, 122);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 90px;
+    padding-block: 40px;
+}
+.image-bottom h2{
+    margin-bottom: 15px;
+}
+.image-bottom p{
+    font-size: 19px;
+    color: rgb(164, 219, 212);
+}
+.image-bottom button{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.cleaning{
+    width: 100%;
+    height: auto;
+    margin-block: 60px;
+    display: flex;
+}
+.left-cl{
+    width: 50%;
+    height: auto;
+    padding-left: 90px;
+}
+.left-cl h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+.left-cl hr{
+    width: 55px;
+    background-color: black;
+    margin-block: 20px;
+}
+.left-cl p{
+    line-height: 25px;
+    color: rgb(139, 133, 127);
+}
+.right-cl{
+    width: 50%;
+    height: auto;
+    /* padding-bottom: 60px; */
+}
+.car-wash{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.car-wash hr{
+    width: 60px;
+    margin-block: 20px;
+}
+.para{
+    display: flex;
+    margin-inline: 10px;
+}
+.para h4{
+    margin-inline: 5px;
+    background-color: rgb(253, 248, 228);
+    font-weight: 900;
+}
+.car-wash h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.car-cards{
+    width: 88%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+.cards{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards img{
+    width: 350px;
+    
+}
+.cards a:nth-child(2){
+    font-size: 20px;
+    font-weight: 900;
+    margin-block: 25px;
+    color: rgb(7, 134, 118);
+    text-decoration: none;
+}
+.cards p{
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(119, 130, 139);
+}
+.cards a:nth-child(4){
+    color:  rgb(7, 134, 118) ;
+
+}
+.cards a:nth-child(5){
+    color: rgb(7, 134, 118)  ;
+    text-decoration: none;
+}
+.cards a:hover{
+    text-decoration: underline;
+
+}
+.bus-wash{
+    margin-block: 60px;
+}
+.mining{
+    margin-block: 60px;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.left-contact{
+    width: 70%;
+    height: auto;
+    /* background-color: bisque; */
+    padding-left: 80px;
+}
+.left-contact h1{
+    font-weight: 100;
+}
+.left-contact p{
+    color: rgb(125, 120, 121);
+    padding-bottom: 10px;
+
+}.left-contact a{
+    font-size: 17px;
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(1, 135, 126);
+}
+.left-contact p:nth-child(2){
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.dabba{
+    width: 805px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(212, 237, 218);
+    
+}
+.dabba input{
+    width: 300px;
+    height: 40px;
+    border: none;
+ 
+}
+.dabba button{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(121, 119, 119);
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+}
+.right-contact{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    
+}
+.right-contact h1{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.right-contact hr{
+    margin-block: 10px;
+    height: 1px;
+    color: azure;
+}
+.right-contact .anchor{
+    margin-top: 10px;
+    
+}
+.anchor a{
+    color: rgb(26, 131, 119);
+    text-decoration: none;
+    
+}
+.anchor i{
+    margin-right: 5px;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color: rgb(33, 36, 41);
+    padding-top: 60px;
+}
+.bottom p{
+    margin-block: 15px;
+    line-height: 23px;
+    color: white;
+}
+.bottom a{
+    color: rgb(90, 96, 95);
+    /* margin-left: 100px; */
+}
+.bottom h4{
+    color: rgb(186, 187, 190);
+    font-size: 13PX;
+}
+.bottom i{
+    color: rgb(135, 138, 140);
+    margin-right: 15px;
+}
+.news{
+    padding-left: 20px;
+}
+.news input{
+    width: 320px;
+    height: 40px;
+    
+}
+.news button{
+    width: 50px;
+    height: 40px;
+    font-weight: 600;
+    
+}
+
+.quick{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.bottom a{
+    margin-block: 15px;
+    color: rgb(90, 96, 95);
+    text-decoration: none;
+}
+.tools{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.follow{
+    margin-right: 60px;
+}
+.follow i{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+.end{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(28, 32, 35);
+    color: rgb(115, 105, 96);
+}
+.end a{
+    color:  rgb(115, 105, 96);
+    margin-right: 20px;
+}
+.copy{
+    display: flex;
+    align-items: center;   
+    margin-left: 20px;
+}
+.copy p{
+    font-size: 13px;
+}
+.copy img{
+    width: 50px;
+    
+}
+.end-button button{
+    width: 50px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    background-color: rgb(55, 56, 58);
+    border: none;
+    color: white;
+
+}
+
+
+/* responsive */
+
+@media (max-width:768px) {
+    
+    .upper-nav{
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    .image-part{
+        width: 100vw;
+        height: 50vh;
+    }
+    .image-bottom{
+        display: block;
+    }
+    .image-bottom button{
+        margin-top: 40px;
+    }
+    .cleaning{
+        display: block;
+    }
+    .left-cl{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .right-cl{
+        width: 100vw;
+        height: auto;
+        margin-block: 30px;
+        text-align: center;
+    }
+    .car-cards{
+        display: block;
+        text-align: center;
+    }
+    .cards{
+        width: 100vw;
+        height: auto;
+        text-align: start;
+        margin-block: 30px;
+    }
+    .contact{
+        width: 100vw;
+        display: block;
+        /* text-align: center; */
+    }
+    .dabba{
+        width: 500px;
+        height: 250px;
+        display: block;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .dabba input{
+        margin-bottom: 10px;
+    }
+    .right-contact{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .right-contact br{
+        display: none;
+    }
+    .anchor hr{
+        margin-block: 20px;
+    }
+    .bottom{
+        width: 100vw;
+        height: auto;
+        display: block;
+        padding-left: 30px;
+
+    }
+    .quick{
+        margin-block: 50px;
+    }
+    .follow{
+        padding-block: 50px;
+    }
+    .end{
+        width: 100vw;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+    .copy{
+        padding-block: 30px;
+        display: block;
+    }
+    .end i{
+        margin-bottom: 40px;
+    }
+    .end-button{
+        display: none;
+    }
+}
